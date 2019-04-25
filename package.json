@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe \"saucelabs:Chrome@beta:Windows 10\" tests/*.js",
+    "test": "testcafe \"saucelabs:Chrome@73:Windows 10\" tests/*.js",
     "localtest": "testcafe chrome tests/*.js"
   },
   "devDependencies": {
