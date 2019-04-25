@@ -4,6 +4,7 @@
     "localtest": "testcafe chrome tests/*.js"
   },
   "devDependencies": {
+    "testcafe": "^1.1.3",
     "testcafe-browser-provider-saucelabs": "^1.7.0"
   }
 }
