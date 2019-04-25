@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "testcafe \"saucelabs:Chrome@beta:Windows 10\" tests/*.js",
+    "localtest": "testcafe chrome tests/*.js"
+  },
+  "devDependencies": {
+    "testcafe-browser-provider-saucelabs": "^1.7.0"
+  }
+}
