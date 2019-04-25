@@ -6,7 +6,7 @@ fixture`My fixture`
 
 const page = new Page();
 
-test.only('Text typing basics', async t => {
+test('Text typing basics', async t => {
   await t
     .typeText(page.nameInput, 'Peter')
     .setTestSpeed(0.1)
