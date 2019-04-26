@@ -28,5 +28,5 @@ test('Submit a developer name and check the header', async t => {
 
   await page.submitName('Peter');
 
-  await t.expect(header.innerText).eql('Thank you, Peter!');
+  await t.expect(header.innerText).eql('Wrong input');
 });
